@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DnxCommands": {
+      "commandName": "DnxCommands",
+      "commandLineArgs": "connection.connection_string=foo"
+    }
+  }
+}

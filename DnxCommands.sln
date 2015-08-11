@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{989DDF65-0BA2-4859-940C-2EF766702F5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8BAA3BC7-6688-4670-880B-35B6B4CAE09C}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		NuGet.Config = NuGet.Config
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DnxCommands", "src\DnxCommands\DnxCommands.xproj", "{2D0F9BCA-92A2-4899-B1C6-71AF0D7397B2}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ConsoleTestApp", "src\ConsoleTestApp\ConsoleTestApp.xproj", "{45F67340-9F6A-4040-8B9F-D6606AF99151}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D0F9BCA-92A2-4899-B1C6-71AF0D7397B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D0F9BCA-92A2-4899-B1C6-71AF0D7397B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D0F9BCA-92A2-4899-B1C6-71AF0D7397B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D0F9BCA-92A2-4899-B1C6-71AF0D7397B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45F67340-9F6A-4040-8B9F-D6606AF99151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45F67340-9F6A-4040-8B9F-D6606AF99151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45F67340-9F6A-4040-8B9F-D6606AF99151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45F67340-9F6A-4040-8B9F-D6606AF99151}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D0F9BCA-92A2-4899-B1C6-71AF0D7397B2} = {989DDF65-0BA2-4859-940C-2EF766702F5F}
+		{45F67340-9F6A-4040-8B9F-D6606AF99151} = {989DDF65-0BA2-4859-940C-2EF766702F5F}
+	EndGlobalSection
+EndGlobal
